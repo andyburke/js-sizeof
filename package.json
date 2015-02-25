@@ -1,0 +1,29 @@
+{
+  "name": "js-sizeof",
+  "description": "A small, dependency-free library to calculate the rough size of a javascript object in memory.",
+  "author": "Andy Burke <aburke@bitflood.org>",
+  "url": "https://github.com/andyburke/js-sizeof",
+  "contributors": [
+    {
+      "name": "Stephen Morley",
+      "web": "http://code.stephenmorley.org/"
+    }
+  ],
+  "keywords": [
+    "sizeof",
+    "memory",
+    "size"
+  ],
+  "main": "./index.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyburke/js-sizeof.git"
+  },
+  "scripts": {
+    "test": "tap ./tests"
+  },
+  "devDependencies": {
+    "tap": "^0.6.0"
+  }
+}
